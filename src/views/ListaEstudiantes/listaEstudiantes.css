@@ -131,7 +131,7 @@
     background-color: #DD0919;
     color: white;
     border-radius: 10px;
-    width: 60px;
+    width: 80px;
     font-family: system-ui;
     font-weight: 550;
     font-size: 14px;
@@ -356,4 +356,10 @@
 
 .generalle .v-field--center-affix .v-field__append-inner, .v-field--center-affix .v-field__clearable, .v-field--center-affix .v-field__prepend-inner {
     margin-left: 5px;
+}
+
+.generalle .clickable-text {
+    cursor: pointer;
+    color: #DD0919; /* Puedes cambiar el color si lo deseas */
+    text-decoration: underline; /* Esto subraya el texto */
 }

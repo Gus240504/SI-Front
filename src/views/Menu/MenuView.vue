@@ -11,6 +11,11 @@
 
     <v-icon class=""></v-icon>
 
+    <div class="contenedor">
+      <div class="logo">
+          Acá iría la foto del usuario
+      </div>
+    </div>
     <v-container>
       <p class="usuario" id="txtNombreP"></p>
     </v-container>
@@ -19,56 +24,42 @@
       Código:
       <p class="codigo" id="txtCodigoP"></p>
     </v-container>
-    <div class="contenedor">
-      <div class="logo">
-          Acá iría la foto del usuario
-      </div>
-  </div>
 
     <v-container class="cont-pag"> 
       <v-col>
         <v-btn href="https://calendar.google.com/calendar/u/0/r?pli=1"
-        height="40"
-        class="btn-large"
+        class="btnDiri"
         target="-blank">            
-        <v-icon class="calendario"></v-icon>
         Calendario </v-btn>
       </v-col>
 
       <v-col>
         <v-btn href="https://www.google.com/intl/es-419/gmail/about/"
-        height="40"
-        class="btn-large"
+        class="btnDiri"
         target="-blank">            
-        <v-icon class="gmail"></v-icon>
         Gmail</v-btn>
       </v-col>
 
       <v-col>
         <v-btn href="https://docs.google.com/document/u/0/?tgif=d"
         height="40"
-        class="btn-large"
+        class="btnDiri"
         target="-blank">            
-        <v-icon class="doc"></v-icon>
         Documentos</v-btn>
-
       </v-col>
 
       <v-col>
         <v-btn href="https://drive.google.com/drive/my-drive?hl=es"
         height="40"
-        class="btn-large"
+        class="btnDiri"
         target="-blank">            
-        <v-icon class="drive"></v-icon>
         Drive</v-btn>
       </v-col>
 
       <v-col>
         <v-btn href="https://keep.google.com/u/0/"
-        height="40"
-        class="btn-large"
+        class="btnDiri"
         target="-blank">            
-        <v-icon class="keep"></v-icon>
         Keep</v-btn>
       </v-col>
 
@@ -124,8 +115,13 @@
     </v-container>
   </v-container>
 </v-container>
-
 </v-container>
+<v-container class="m-raya-blanca"> </v-container>
+        <v-container class="m-raya-roja">
+        <v-container class="pie">      
+        <p> © UCV - Docentes 2024 </p>
+        </v-container>
+        </v-container>
 </template>
 <script>
 export default {

@@ -199,7 +199,9 @@
                 
             <v-container class="contenedorUser">
                 <v-container class="cont-logoUCV">
-                    <v-container class="logoPRIN"></v-container>
+                    <v-container class="logoPRIN">
+                        <p class="textlogo">Acá iría la foto del usuario</p> 
+                    </v-container>
                 </v-container>
                 <v-container class="contenedorInfo"> 
                 <v-icon class=""></v-icon>
@@ -218,7 +220,6 @@
                         <v-btn href="https://calendar.google.com/calendar/u/0/r?pli=1"
                         height="30"
                         target="-blank">            
-                        <v-icon class="calendarioAdmin"></v-icon>
                         Calendario</v-btn>
                     </v-col>
 
@@ -226,7 +227,7 @@
                         <v-btn href="https://www.google.com/intl/es-419/gmail/about/"
                         height="30"
                         target="-blank">            
-                        Gmail<v-icon class="gmail"></v-icon>
+                        Gmail
                         </v-btn>
                     </v-col>
 
@@ -234,7 +235,6 @@
                         <v-btn href="https://docs.google.com/document/u/0/?tgif=d"
                         height="30"
                         target="-blank">            
-                        <v-icon class="doc"></v-icon>
                         Documentos</v-btn>
 
                     </v-col>
@@ -243,17 +243,9 @@
                         <v-btn href="https://drive.google.com/drive/my-drive?hl=es"
                         height="30"
                         target="-blank">            
-                        <v-icon class="drive"></v-icon>
                         Drive</v-btn>
                     </v-col>
 
-                    <v-col class="sepic">
-                        <v-btn href="https://keep.google.com/u/0/"
-                        height="30"
-                        target="-blank">            
-                        <v-icon class="keep"></v-icon>
-                        Keep</v-btn>
-                    </v-col>
                 </v-container>
 
                 <v-container class="menubtn">

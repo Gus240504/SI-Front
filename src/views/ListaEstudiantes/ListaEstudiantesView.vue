@@ -21,7 +21,6 @@
 
         <v-container class="cont-btn">
           <button class="btn-1" @click="BoletaNotas()">
-            <v-icon left></v-icon>
             Boleta de Notas
           </button>
           <input
@@ -32,11 +31,9 @@
             multiple
             @change="abrirArchivos" />
           <button class="btn-1" @click="openFileInput2">
-            <v-icon left></v-icon>
             Cargar Archivos
           </button>
           <button class="btn-2" @click="Regresar()">
-            <v-icon left></v-icon>
             Regresar
           </button>
         </v-container>
@@ -78,7 +75,6 @@
 
               <v-container class="p-4">
                 <button class="btn-3" @click="selectFirstOption">Limpiar
-                  <v-icon left></v-icon>
                 </button>
               </v-container>
             </v-container>
@@ -121,13 +117,10 @@
                   <td class="c4">{{ item.condicionNota }}</td>
                   <td class="c5">{{ item.nota }}</td>
                   <td class="c6">
-                    <v-icon class="mdi mdi-list-status"
-                    @click="direccionar"></v-icon>
+                      <span @click="direccionar" class="clickable-text">Boleta</span>
                   </td>
                   <td class="c6">
-                    <v-icon
-                      class="mdi mdi-text-box-plus-outline"
-                      @click="openFileInput(index)"></v-icon>
+                     <span @click="openFileInput(index)" class="clickable-text">Revisar</span>
                     <input
                       type="file"
                       :ref="'fileInput' + index"

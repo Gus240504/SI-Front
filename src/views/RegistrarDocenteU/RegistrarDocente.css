@@ -6,6 +6,13 @@
     height: 100%;
     background-size: cover;
   }
+  .generalR .bientext{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    font-weight: 500;
+}
   .generalR .contenedorP{
     width: 100%;
     margin-top: 0px;

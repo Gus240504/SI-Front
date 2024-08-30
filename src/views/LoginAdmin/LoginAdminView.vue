@@ -2,7 +2,8 @@
     <v-container class="loginAdmin">   
         <v-container class="cont1-lodadmi">
             <v-col class="login-c1">
-                <v-container class="logo"></v-container>
+                
+                <v-container class="logo"> UNIVERSIDAD CÉSAR VALLEJO</v-container>
 
                 <v-text-field
                     label="Usuario"

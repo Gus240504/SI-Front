@@ -171,11 +171,13 @@
 }
 
 .adminU .logoPRIN{
-    background-image: url('');
-    background-size: cover;
+    background-color: #ffffff;
     margin-top: 20px;
-    max-width: 350px;
-    height: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid #004080; 
+    border-radius: 15px;
 }
 
 .adminU .iconousuario{
@@ -192,7 +194,7 @@
 }
 
 .adminU .usuarioEncontrado{
-    margin-top: -25px;
+    margin-top: 60px;
     text-align: center;
     font-size: 28px;
     color: #002854;
@@ -282,4 +284,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: center; 
     margin-left: 150px;
+}
+
+.adminU .textlogo{
+    margin-top: 30px;
+    color:#002854;
+    text-align: center;
 }

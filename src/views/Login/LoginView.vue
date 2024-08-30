@@ -3,7 +3,7 @@
         <v-container class="cont1-login">
 
           <v-col class="login-c1">
-            <v-container class="logo"> UNIVERSIDAD CESAR VALLEJO</v-container>
+            <v-container class="logo"> UNIVERSIDAD CÉSAR VALLEJO</v-container>
 
               <v-text-field
                 label="Usuario"
@@ -86,7 +86,7 @@ export default {
   },
   methods:{
     obtenerUsuario(){
-      this.$axios.get("/usuario").then((res)=>{this.usuarios=res.data;}).catch((error)=>e);
+      this.$axios.get("/usuario").then((res)=>{this.usuarios=res.data;}).catch((e)=>e);
     },
     async iniciarSesion() {
       if (this.username === "" || this.password === "") {

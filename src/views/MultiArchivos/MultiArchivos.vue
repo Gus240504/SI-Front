@@ -28,11 +28,9 @@
                 <option value="U3">3</option>
               </select>
           <button class="btn-1" @click="conectarIA()">
-              <v-icon left></v-icon>
               Revisar
             </button>
           <button class="btn-2" @click="Regresar()">
-            <v-icon left></v-icon>
             Regresar
           </button>
         </v-container>

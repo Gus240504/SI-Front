@@ -4,10 +4,11 @@
         <v-container class="cont-blancoizq">
             <v-container class="cont-info"> 
                 <v-container class="cont-logo">
-                    <v-container class="logo"></v-container>
+                    
+                    <v-container class="logo">
+                        <p class="textlogo">Acá iría la foto del usuario</p> 
+                    </v-container>
                 </v-container>
-
-                <v-icon class="mdi mdi-account-circle iconouser"></v-icon>
 
                 <v-container>
                     <p class="usuario" id="">{{ nombresCompletos }}</p>
@@ -22,7 +23,6 @@
                         <v-btn href="https://calendar.google.com/calendar/u/0/r?pli=1"
                         height="30"
                         target="-blank">            
-                        <v-icon class="calendario"></v-icon>
                         Calendario</v-btn>
                     </v-col>
 
@@ -30,7 +30,6 @@
                         <v-btn href="https://www.google.com/intl/es-419/gmail/about/"
                         height="30"
                         target="-blank">            
-                        <v-icon class="gmail"></v-icon>
                         Gmail</v-btn>
                     </v-col>
 
@@ -38,7 +37,6 @@
                         <v-btn href="https://docs.google.com/document/u/0/?tgif=d"
                         height="30"
                         target="-blank">            
-                        <v-icon class="doc"></v-icon>
                         Documentos</v-btn>
 
                     </v-col>
@@ -47,17 +45,9 @@
                         <v-btn href="https://drive.google.com/drive/my-drive?hl=es"
                         height="30"
                         target="-blank">            
-                        <v-icon class="drive"></v-icon>
                         Drive</v-btn>
                     </v-col>
 
-                    <v-col class="sepic">
-                        <v-btn href="https://keep.google.com/u/0/"
-                        height="30"
-                        target="-blank">            
-                        <v-icon class="keep"></v-icon>
-                        Keep</v-btn>
-                    </v-col>
                 </v-container>
 
                 <v-container class="menubtn">

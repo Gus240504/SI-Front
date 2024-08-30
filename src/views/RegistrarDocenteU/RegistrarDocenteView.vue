@@ -5,6 +5,9 @@
               <v-container class="logoR"></v-container>
             </v-col>
               <v-container class="contenedorP">
+                
+                <p class="bientext">Registro de docente</p>
+
                 <p>Datos del docente</p>
                 <v-divider></v-divider> 
                     <v-row class="conten">

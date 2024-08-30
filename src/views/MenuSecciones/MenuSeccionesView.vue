@@ -5,13 +5,15 @@
 
             <v-container class="cont-infoper">
                 <v-container class="cont-logo">
-                <v-container class="logo"></v-container>
+                    <div class="contenedor">
+                        <div class="iconoo">
+                            Acá iría la foto del usuario
+                        </div>
+                    </div>
+                <v-container class="logo">
+                    
                 </v-container>
-                        <div class="contenedor">
-            <div class="iconoo">
-                Acá iría la foto del usuario
-            </div>
-        </div>
+                </v-container>
                 <v-container>
                 <p class="usuario" id="txtNombreP"></p>
                 </v-container>
@@ -99,7 +101,6 @@
                     </v-container>
                     <v-container class="B">
                         <btn class="btn-regresar" @click="regrezarMenu()">
-                            <v-icon left></v-icon>
                             Regresar
                         </btn>
                     </v-container> 
@@ -120,7 +121,7 @@
                                     </v-container>
                                     <v-container class="btnlista">
                                         <btn class="btn-entrar">
-                                            <v-icon left></v-icon>Ver
+                                            Ver
                                         </btn>
                                     </v-container>
                                 </v-card-text>

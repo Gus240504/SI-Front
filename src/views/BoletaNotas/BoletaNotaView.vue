@@ -24,7 +24,6 @@ import { Axios } from 'axios';
 
                 <v-container class="cont-btn">
                     <button class="btn-2" @click="ListaEstudiante()">
-                        <v-icon left></v-icon>
                         Regresar
                     </button>
                 </v-container>
